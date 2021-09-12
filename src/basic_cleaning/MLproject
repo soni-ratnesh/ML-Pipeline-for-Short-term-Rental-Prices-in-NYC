@@ -6,28 +6,28 @@ entry_points:
     parameters:
 
        input_artifact:
-        description: ## ADD DESCRIPTION
+        description: name of input artifact
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the output artifact
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Artifact type
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Artifact description
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Minimum accepted price
+        type: float
 
       max_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Maximum accepted price
+        type: float
 
 
     command: >-
