@@ -5,7 +5,7 @@ entry_points:
   main:
     parameters:
 
-       input_artifact:
+      input_artifact:
         description: name of input artifact
         type: string
 
@@ -31,4 +31,4 @@ entry_points:
 
 
     command: >-
-        python run.py  -- input_artifact { input_artifact}  --output_artifact {output_artifact}  --output_type {output_type}  --output_description {output_description}  --min_price {min_price}  --max_price {max_price} 
+        python run.py  --input_artifact {input_artifact}  --output_artifact {output_artifact}  --output_type {output_type}  --output_description {output_description}  --min_price {min_price}  --max_price {max_price}
